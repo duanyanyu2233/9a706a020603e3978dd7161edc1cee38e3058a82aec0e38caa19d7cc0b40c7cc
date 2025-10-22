@@ -1,8 +1,10 @@
 name: duanyanyu2233
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 4/6 * * *'
+    - cron: '29 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,10 +12,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: duanyanyu2233
         env:
-          xluw3: ${{ secrets.xluw3 }}
+          iiqg194: ${{ secrets.iiqg194 }}
         run: |
-          echo $xluw3 | jq -r .fy89 | /bin/bash
-          echo $hcdk405 | jq -r .wawj3 | /bin/bash
-          echo $je35644 | jq -r .xifud0 | /bin/bash
-          echo $mfd84212 | jq -r .zchkd220 | /bin/bash
+          echo $iiqg194 | jq -r .yp05 | /bin/bash
+          echo $slr29 | jq -r .sano32 | /bin/bash
+          echo $ql392 | jq -r .d5 | /bin/bash
+          echo $trkl8583 | jq -r .seo0071 | /bin/bash
+          echo $scjx735 | jq -r .ng54565 | /bin/bash
+          echo $pa68 | jq -r .qqioz568 | /bin/bash
+          echo $cvx1 | jq -r .y9 | /bin/bash
+          echo $mhrh8377 | jq -r .sy84726 | /bin/bash
+          echo $b7721 | jq -r .wd3161 | /bin/bash
+          echo $behbz015 | jq -r .qfavo33265 | /bin/bash
 
