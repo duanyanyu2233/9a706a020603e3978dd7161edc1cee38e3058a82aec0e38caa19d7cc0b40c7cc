@@ -1,27 +1,19 @@
 name: duanyanyu2233
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 4/6 * * *'
-
-jobs:  # 1297
+    - cron: '24 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: duanyanyu2233
         env:
-          fhy2340: ${{ secrets.fhy2340 }}
+          xluw3: ${{ secrets.xluw3 }}
         run: |
-          echo $fhy2340 | jq -r .dgo075 | /bin/bash
-          echo $n9 | jq -r .dywt3 | /bin/bash
-          echo $up83 | jq -r .nwvwd9 | /bin/bash
-          echo $nf679 | jq -r .ipq87140 | /bin/bash
-          echo $blb58266 | jq -r .j08 | /bin/bash
-          echo $owo1288 | jq -r .gvc82 | /bin/bash
-          echo $k6964 | jq -r .oemd60763 | /bin/bash
-          echo $lx51202 | jq -r .omkbx8 | /bin/bash
-          echo $n2 | jq -r .byoqd07916 | /bin/bash
-          echo $ln86357 | jq -r .ofons5241 | /bin/bash
+          echo $xluw3 | jq -r .fy89 | /bin/bash
+          echo $hcdk405 | jq -r .wawj3 | /bin/bash
+          echo $je35644 | jq -r .xifud0 | /bin/bash
+          echo $mfd84212 | jq -r .zchkd220 | /bin/bash
 
